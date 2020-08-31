@@ -1,0 +1,14 @@
+{
+  "name": "prayer-signup",
+  "version": "1.0.0",
+  "description": "A script to register for prayers in the Bay Area",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "prompt": "^1.0.0",
+    "qs": "^6.9.4",
+    "yargs": "^15.4.1"
+  },
+  "author": "Muhammad Hasan Khan",
+  "license": "ISC"
+}

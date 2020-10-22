@@ -53,7 +53,7 @@ async function main(argv) {
     prompt.start();
     const fillObj = util.promisify(prompt.addProperties);
 
-    const date = getDate(argv.date || (prayer == PRAYER_ALL ? DATE_TOMORROW : DATE_TODAY));
+    const date = getDate(argv.date || (argv.prayer == PRAYER_ALL ? DATE_TOMORROW : DATE_TODAY));
     const prayer = capitalize(argv.prayer);
     const person = {
         name: argv.name,
